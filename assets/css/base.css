@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth; /* يجعل التمرير سلسًا عند الانتقال إلى المعرفات */
+}
+
+:root{
+    --mainColor :#0766AD;
+    --subColor: #29ADB2;
+    --thColor : #C5E898;
+    --fourColor:#F3F3F3;
+ 
+    --mainFont:"Roboto", sans-serif;
+    --subFont:  "Mooli", sans-serif;
+
+}
+a
+{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container
+{
+    width: calc(100% - 120px);
+    margin: auto;
+  
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

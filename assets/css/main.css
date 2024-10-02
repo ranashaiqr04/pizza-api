@@ -1,0 +1,54 @@
+@import 'base.css';
+body{
+    background-color: red;
+}
+.pizza-time
+{
+    padding: 20px;
+}
+.pizza-time .row
+{
+    justify-content: center;
+    gap: 15px;
+}
+.user
+{
+    background-color: rgba(170, 155, 114, 11.407);
+    border-radius: 20px;
+    font-family: var(--mainFont);
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    transition: transform 0.5s ease;
+
+}
+.user:hover
+{
+    transform:scale(1.2) ;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.pizza-time .user img
+{
+    width:180px;
+    height: 180px;
+}
+.user h3
+{
+    font-size:16px;
+    font-weight: 300;
+
+}
+.user h2 
+{
+    font-size: 25px;
+   text-align: center;
+    font-weight: 500;
+    color: red;
+}
